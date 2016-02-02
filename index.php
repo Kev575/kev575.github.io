@@ -1,5 +1,11 @@
+<?php
+if($_SERVER["HTTPS"] != "on")
+{
+    header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
+    exit();
+}
+?>
 <!DOCTYPE html>
-<!-- saved from url=(0040)http://getbootstrap.com/examples/cover/# -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +15,7 @@
     <meta name="author" content="">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-    <title>Cover Template for Bootstrap</title>
+    <title>Kev575</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./Cover Template for Bootstrap_files/bootstrap.min.css" rel="stylesheet">
@@ -44,32 +50,29 @@
               <h3 class="masthead-brand">Cover</h3>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li class="active"><a href="http://getbootstrap.com/examples/cover/#">Home</a></li>
-                  <li><a href="http://getbootstrap.com/examples/cover/#">Features</a></li>
-                  <li><a href="http://getbootstrap.com/examples/cover/#">Contact</a></li>
+                  <li class="active"><a href="https://kev575.github.io">Home</a></li>
+                  <li><a href="https://www.spigotmc.org/members/kev575.72903/">SpigotMC</a></li>
+                  <li><a href="https://www.spigotmc.org/conversations/add?to=Kev575">Contact</a></li>
                 </ul>
               </nav>
             </div>
           </div>
 
           <div class="inner cover">
-            <h1 class="cover-heading">Cover your page.</h1>
-            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+            <h1 class="cover-heading">Kev575</h1>
+            <p class="lead">Hi, I'm Kev. A developer. Creator of KevsPermissions. That's it ;)</p>
             <p class="lead">
-              <a href="http://getbootstrap.com/examples/cover/#" class="btn btn-lg btn-default">Learn more</a>
+              <a href="https://www.spigotmc.org/members/kev575.72903/" class="btn btn-lg btn-warning">Me on SpigotMC.org</a>
             </p>
           </div>
 
           <div class="mastfoot">
             <div class="inner">
-              <p>Cover template for <a href="http://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+              <p>Thanks to <a href="https://twitter.com/mdo">@mdo</a> for this fancy template.</p>
             </div>
           </div>
-
         </div>
-
       </div>
-
     </div>
 
     <!-- Bootstrap core JavaScript
