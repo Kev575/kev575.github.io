@@ -1,6 +1,6 @@
 {
 	"version": "1.0",
 	"plugins": {
-		"kpgui1_2": "https://www.spigotmc.org/resources/kevspermissionsgui.21632/download?version=85408"
+		"kpgui1_2": "http://kev575.github.io/files/KevsPermissionsGUI-1_2.jar"
 	}
 }
