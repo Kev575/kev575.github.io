@@ -1,6 +1,7 @@
 {
 	"version": "1.0",
 	"plugins": {
-		"kpgui1_2": "http://kev575.github.io/files/KevsPermissionsGUI-1_2.jar"
+		"kpgui1_2": "http://kev575.github.io/files/KevsPermissionsGUI-1_2.jar",
+		"testfile_dont_download": "http://kev575.github.io/files/null/"
 	}
 }
